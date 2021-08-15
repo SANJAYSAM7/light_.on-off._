@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+.hero
+{
+    background: #1d2026;
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 10px 2%;
+}
+
+
+nav .hello
+{
+    width: 250px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+button {
+    
+    background: #efefef;
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    border: 20px;
+    border:0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 0.5s;
+
+}
+
+button 1 span
+{
+    display: block;
+    background: #999;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 2px;
+}
+
+
+button span
+{
+    display: block;
+    background: #999;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 2px;
+    transition: background 0.5s,   margin-left 0.5s;
+}
+
+.lamp-body
+{
+    position: absolute;
+    top: 60px;
+    left: 0%;
+    width: 350px;
+}
+
+.lam{
+    width: 100%;
+     
+}
+
+.light
+{
+    position: absolute;
+    width: 250px;
+    top: 185px;
+    left: 208px;
+    opacity: 0;
+    transition: opacity 0.5s;
+
+}
+
+.text-container
+{
+    max-width: 600px;
+    margin-top: 2%;
+    margin-left: 20%;
+    font-size: 14px;
+    font-weight:400;
+    font-family:fantasy;
+    font-style:initial;
+    left: auto;
+}
+
+h1{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: center;
+    font-family: 14px;
+    margin-left: -9mm;
+}
+.c4
+{
+    border: rgb(255, 255, 255) 2px solid;
+    border-radius: 5mm;
+    width: 16%;
+    
+    margin-left: 150mm;
+    text-align: left;
+    margin-top: 32mm;
+
+
+}
+
+.active{
+    background: rgb(3, 173, 80);
+}
+.active span
+{
+background:rgb(255, 255, 255);
+margin-left: 31px;
+}
+
+.on{
+    opacity: 1;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+  .lam{
+      width: 95%;
+  }
+  .light
+{
+    position: absolute;
+    width: 232px;
+    top: 177px;
+    left: 199.5px;
+    
+}
+.c4
+{
+    border: rgb(255, 255, 255) 2px solid;
+    border-radius: 4mm;
+    width: 15%;
+    
+    margin-left: 125mm;
+    text-align: center;
+    margin-top: 55mm;
+
+
+}
+h1{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    
+    font-size: 16px;
+    text-align: left;
+   
+        margin-left: 2mm;
+    }
+
+
+  
+}
+  
+@media only screen and (max-width: 800px) 
+{
+  .lam{
+      width: 90%;
+      position: absolute;
+      position: static;
+  }
+  .light
+  {
+      position: absolute;
+      width: 222px;
+      top: 167px;
+      left: 189px;
+  }
+  .c4
+{
+    border: rgb(255, 255, 255) 2px solid;
+    border-radius: 3mm;
+    width: 23%;
+    
+    margin-left: 65mm;
+    text-align: center;
+    margin-top: 105mm;
+
+
+}
+h1{
+   
+    margin-left: 0mm;
+}
+}
+
+
+@media only screen and (max-width: 450px) 
+{
+  .lam{
+      width: 70%;
+      position: absolute;
+      position: static;
+  }
+  .light
+  {
+      position: absolute;
+      width: 170px;
+      top: 130px;
+      left: 147px;
+  }
+  nav .hello {
+    width: 240px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+  
+  
+  
+
+  
+}
+
+
+
+
+
+  
+
